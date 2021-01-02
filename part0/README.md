@@ -1,1 +1,0 @@
-Submission for part0 - fullstackopen 2020
