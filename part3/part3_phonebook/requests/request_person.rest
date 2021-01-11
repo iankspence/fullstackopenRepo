@@ -1,0 +1,37 @@
+###
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/5ffc05b9acbbda3f555e6107
+
+###
+DELETE http://localhost:3001/api/persons/101737805
+content-type: application/json
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "ian spence",
+    "number": "780 313"
+}
+
+
+// HEROKU REQUESTS
+
+### 
+GET https://secure-plains-53790.herokuapp.com/api/persons
+
+### 
+GET https://secure-plains-53790.herokuapp.com/api/persons/3
+
+###
+DELETE https://secure-plains-53790.herokuapp.com/api/persons/3
+content-type: application/json
+
+###
+POST https://secure-plains-53790.herokuapp.com/api/persons/3
+content-type: application/json
+
+
